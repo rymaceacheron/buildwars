@@ -1,0 +1,35 @@
+{
+  "name": "guildwars",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "data:build": "node scripts/scrape-wiki/build-database.js",
+    "data:details": "node scripts/scrape-wiki/build-database.js --details-only",
+    "data:professions": "node scripts/scrape-wiki/build-database.js --details-only --professions-only",
+    "data:icons": "node scripts/scrape-wiki/fetch-icons.js",
+    "data:icons:sample": "node scripts/scrape-wiki/fetch-icons.js --sample"
+  },
+  "dependencies": {
+    "@vueuse/core": "^11.0.0",
+    "pinia": "^2.2.0",
+    "vue": "^3.5.0",
+    "vue-router": "^4.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@vitejs/plugin-vue": "^5.1.0",
+    "@vue/test-utils": "^2.4.0",
+    "autoprefixer": "^10.4.0",
+    "jsdom": "^25.0.0",
+    "postcss": "^8.4.0",
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5.5.0",
+    "vite": "^5.4.0",
+    "vitest": "^2.1.0",
+    "vue-tsc": "^2.1.0"
+  }
+}

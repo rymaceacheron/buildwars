@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --gw-gold: #C8A84B;
+    --gw-dark: #1A1510;
+    --gw-panel: #2C2318;
+    --gw-border: #5C4A20;
+    --gw-text: #D4C09A;
+  }
+
+  html, body {
+    @apply bg-gw-dark text-gw-text;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-gw-dark;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-gw-border rounded;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-gw-gold;
+  }
+}
+
+@layer components {
+  .gw-panel {
+    @apply bg-gw-panel border border-gw-border rounded shadow-gw;
+  }
+
+  .gw-btn {
+    @apply px-3 py-1 bg-gw-panel border border-gw-border text-gw-text text-sm
+           hover:border-gw-gold hover:text-gw-gold transition-colors cursor-pointer
+           rounded;
+  }
+
+  .gw-btn-primary {
+    @apply gw-btn bg-gw-border border-gw-gold text-gw-gold hover:bg-gw-gold hover:text-gw-dark;
+  }
+
+  .gw-input {
+    @apply bg-gw-dark border border-gw-border rounded px-2 py-1 text-gw-text text-sm
+           focus:outline-none focus:border-gw-gold transition-colors;
+  }
+
+  .skill-slot {
+    @apply w-14 h-14 border-2 border-gw-border bg-gw-dark rounded cursor-pointer
+           hover:border-gw-gold transition-colors relative overflow-hidden;
+  }
+
+  .skill-slot.elite {
+    @apply border-gw-elite shadow-gw-elite;
+  }
+
+  .skill-slot.empty {
+    @apply flex items-center justify-center text-gw-text-muted text-xs;
+  }
+}

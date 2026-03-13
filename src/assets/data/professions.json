@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "abbrev": "W",
+    "name": "Warrior",
+    "campaign": "Core",
+    "primaryAttribute": "Strength",
+    "attributes": ["Strength", "Hammer Mastery", "Axe Mastery", "Swordsmanship", "Tactics"],
+    "color": "#8B7355",
+    "icon": "prof_warrior.png"
+  },
+  {
+    "id": 2,
+    "abbrev": "R",
+    "name": "Ranger",
+    "campaign": "Core",
+    "primaryAttribute": "Expertise",
+    "attributes": ["Expertise", "Marksmanship", "Beast Mastery", "Wilderness Survival"],
+    "color": "#4A7A3A",
+    "icon": "prof_ranger.png"
+  },
+  {
+    "id": 3,
+    "abbrev": "Mo",
+    "name": "Monk",
+    "campaign": "Core",
+    "primaryAttribute": "Divine Favor",
+    "attributes": ["Divine Favor", "Healing Prayers", "Smiting Prayers", "Protection Prayers"],
+    "color": "#B8A060",
+    "icon": "prof_monk.png"
+  },
+  {
+    "id": 4,
+    "abbrev": "N",
+    "name": "Necromancer",
+    "campaign": "Core",
+    "primaryAttribute": "Soul Reaping",
+    "attributes": ["Soul Reaping", "Blood Magic", "Curses", "Death Magic"],
+    "color": "#5A3A6A",
+    "icon": "prof_necromancer.png"
+  },
+  {
+    "id": 5,
+    "abbrev": "Me",
+    "name": "Mesmer",
+    "campaign": "Core",
+    "primaryAttribute": "Fast Casting",
+    "attributes": ["Fast Casting", "Domination Magic", "Inspiration Magic", "Illusion Magic"],
+    "color": "#7A3A6A",
+    "icon": "prof_mesmer.png"
+  },
+  {
+    "id": 6,
+    "abbrev": "E",
+    "name": "Elementalist",
+    "campaign": "Core",
+    "primaryAttribute": "Energy Storage",
+    "attributes": ["Energy Storage", "Fire Magic", "Water Magic", "Air Magic", "Earth Magic"],
+    "color": "#3A5A8A",
+    "icon": "prof_elementalist.png"
+  },
+  {
+    "id": 7,
+    "abbrev": "A",
+    "name": "Assassin",
+    "campaign": "Factions",
+    "primaryAttribute": "Critical Strikes",
+    "attributes": ["Critical Strikes", "Dagger Mastery", "Deadly Arts", "Shadow Arts"],
+    "color": "#2A2A3A",
+    "icon": "prof_assassin.png"
+  },
+  {
+    "id": 8,
+    "abbrev": "Rt",
+    "name": "Ritualist",
+    "campaign": "Factions",
+    "primaryAttribute": "Spawning Power",
+    "attributes": ["Spawning Power", "Channeling Magic", "Communing", "Restoration Magic"],
+    "color": "#5A3A2A",
+    "icon": "prof_ritualist.png"
+  },
+  {
+    "id": 9,
+    "abbrev": "P",
+    "name": "Paragon",
+    "campaign": "Nightfall",
+    "primaryAttribute": "Leadership",
+    "attributes": ["Leadership", "Spear Mastery", "Command", "Motivation"],
+    "color": "#8A7A2A",
+    "icon": "prof_paragon.png"
+  },
+  {
+    "id": 10,
+    "abbrev": "D",
+    "name": "Dervish",
+    "campaign": "Nightfall",
+    "primaryAttribute": "Mysticism",
+    "attributes": ["Mysticism", "Scythe Mastery", "Earth Prayers", "Wind Prayers"],
+    "color": "#8A4A2A",
+    "icon": "prof_dervish.png"
+  }
+]
